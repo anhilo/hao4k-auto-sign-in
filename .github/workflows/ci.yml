@@ -6,6 +6,7 @@ name: CI
 # events but only for the master branch
 # triggers everyday at 7:00AM CST
 on:
+  workflow_dispatch:
   push:
     branches: 
       - master
